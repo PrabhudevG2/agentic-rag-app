@@ -1,0 +1,24 @@
+# file: requirements.txt
+fastmcp
+uvicorn
+requests
+# For PDF processing
+PyMuPDF
+# For RAG (chunking, embeddings, vector store)
+langchain
+langchain-community
+langchain-google-genai
+sentence-transformers
+chromadb
+# For LLM-powered SQL generation
+google-generativeai
+python-dotenv
+langchain-mcp-adapters
+langgraph
+# For structured tool inputs
+pydantic
+pypdf
+# Crewai
+crewai
+crewai-tools==0.59.0
+crewai-tools[mcp]
